@@ -1,3 +1,15 @@
+.navbar .expand {
+    justify-content: left;
+}
+
+
+@media screen and (min-width: 768px) {
+    .navbar .expand {
+        justify-content: flex-end;
+    }
+}
+
+
 img {
     width: 80px;
     height: 80px;
@@ -73,5 +85,17 @@ footer ul li svg:hover {
 }
 .item-04:hover {
     transform: scale(2);
+}
+
+.carousel {
+    padding: 10px;
+}
+
+
+@media (max-width) {
+    .flex-container {
+     display: flex;
+     flex-direction: column; 
+    }
 }
 
